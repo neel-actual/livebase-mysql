@@ -14,7 +14,7 @@ angular.module('App', ['livebase'])
 
   .config(function($livebaseProvider){
   
-    $livebaseProvider.url(FIREBASE_URL);
+    $livebaseProvider.url(SERVER_URL);
     
     $livebaseProvider.tell([
     
