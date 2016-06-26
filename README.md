@@ -1,6 +1,22 @@
 # Livebase
 Chat bot for Angular with MySQL. Designed so that developer could focus on UI and personalization of the chat bot.
 ## Installation
+
+### Server Side
+
+#### 1. Create database
+
+```
+CREATE TABLE `chats` (
+  `id` varchar(20) NOT NULL,
+  `type` varchar(10) NOT NULL,
+  `text` varchar(1000) NOT NULL,
+  `time` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
+
+### Client Side
+
 #### 1. Install from bower 
 
 ```
