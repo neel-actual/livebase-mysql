@@ -20,7 +20,7 @@ CREATE TABLE `chats` (
 ````
 includes/db.php
 all.php
-get.php
+send.php
 ````
 
 ### Client Side
@@ -38,7 +38,7 @@ angular.module('App', ['livebase'])
 
   .config(function($livebaseProvider){
   
-    $livebaseProvider.url(SERVER_URL);
+    $livebaseProvider.url(SERVER_URL); //Usually http://localhost:80/FOLDER_NAME
     
     $livebaseProvider.tell([
     
