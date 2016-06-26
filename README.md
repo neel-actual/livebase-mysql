@@ -15,6 +15,14 @@ CREATE TABLE `chats` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
+#### 2. Create PHP file
+
+````
+includes/db.php
+all.php
+get.php
+````
+
 ### Client Side
 
 #### 1. Install from bower 
@@ -45,7 +53,7 @@ angular.module('App', ['livebase'])
 <!-- AngularJS -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
 <!-- Livebase -->
-<script src="bower_components/livebase/livebase.min.js"></script>
+<script src="bower_components/livebase-mysql/livebase-mysql.js"></script>
 ```
 
 ## Usage
