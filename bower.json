@@ -1,0 +1,40 @@
+{
+  "name": "livebase-mysql",
+  "version": "1.0",
+  "description": "Chat bot for Angular with MySQL",
+  "main": "livebase-mysql.js",
+  "keywords": [
+      "angular",
+      "chat",
+      "bot",
+      "livebase",
+      "mysql"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+      "CHANGELOG.md",
+      "components",
+      "node_modules",
+      "test",
+      "package.json",
+      "Gruntfile.js",
+      ".bowerrc",
+      ".gitignore",
+      ".travis.yml",
+      "README.md"
+  ],
+  "dependencies": {
+      "angular": ">=1.5.5"
+  },
+  "authors": [
+    "Neel Singh",
+    "Ku Ahmad Mudrikah"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/neel2292/livebase.git"
+  }
+}
